@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bonavista Colombo — Restaurant & Karaoke Lounge</title>
+<meta name="description" content="Bonavista Colombo, 76A Barnes Place, Colombo 07. Food, private karaoke, BYOB and memorable nights.">
+<style>
+:root{--gold:#c9a45c;--cream:#f4eee4;--ink:#10100f;--muted:#aaa59b;--line:#2c2a26}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:#fff;font-family:Inter,Arial,sans-serif;line-height:1.6}
+a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
+nav{position:fixed;z-index:50;top:0;left:0;right:0;background:rgba(10,10,9,.78);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.08)}
+.navin{height:78px;display:flex;align-items:center;justify-content:space-between}.brand{font-family:Georgia,serif;font-size:28px;font-style:italic}.brand small{display:block;font:9px Arial;letter-spacing:4px;color:var(--gold);font-style:normal}
+.links{display:flex;gap:28px;font-size:13px;letter-spacing:1px;text-transform:uppercase}.links a:hover{color:var(--gold)}
+.hero{min-height:100vh;position:relative;display:flex;align-items:flex-end;overflow:hidden}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.82),rgba(0,0,0,.18)),linear-gradient(0deg,rgba(0,0,0,.72),transparent 55%),url("assets/img_1.jpeg") center/cover;filter:saturate(.92)}
+.hero-content{position:relative;padding:150px 0 90px;max-width:700px}.eyebrow{color:var(--gold);font-size:12px;letter-spacing:4px;text-transform:uppercase}.hero h1{font:italic clamp(55px,9vw,108px)/.9 Georgia,serif;margin:18px 0}.hero p{max-width:570px;color:#ddd;font-size:18px}.btn{display:inline-flex;padding:13px 21px;border:1px solid var(--gold);margin:8px 8px 0 0;letter-spacing:1px;font-size:12px;text-transform:uppercase}.btn.primary{background:var(--gold);color:#111}
+section{padding:100px 0}.sectionhead{margin-bottom:45px}.sectionhead .eyebrow{font-size:11px}.sectionhead h2{font:italic 52px/1 Georgia,serif;margin:12px 0}.sectionhead p{color:var(--muted);max-width:620px}
+.intro{display:grid;grid-template-columns:1.05fr .95fr;gap:65px;align-items:center}.intro img{width:100%;height:560px;object-fit:cover}.intro p{color:#c9c5bd}.quote{border-left:2px solid var(--gold);padding-left:20px;font:italic 25px Georgia;color:var(--cream)}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{border:1px solid var(--line);padding:28px;background:#141310}.card .icon{font-size:25px}.card h3{font:italic 25px Georgia;margin:10px 0}.card p{color:var(--muted);font-size:14px}
+.menu{background:#f1eadf;color:#171613}.menu .sectionhead p{color:#6d685f}.menu-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:0 55px}.dish{padding:22px 0;border-bottom:1px solid #d3cabd;display:flex;justify-content:space-between;gap:20px}.dish h3{margin:0;font:italic 23px Georgia}.dish p{margin:5px 0 0;color:#777;font-size:13px}.price{color:#9a7536;font-weight:bold;white-space:nowrap}
+.gallery{display:grid;grid-template-columns:2fr 1fr 1fr;gap:10px}.gallery img{width:100%;height:245px;object-fit:cover}.gallery img:first-child{height:500px;grid-row:span 2}.gallery img:hover{filter:brightness(.78)}
+.experience{background:#141310}.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px}.featureline{padding:22px 0;border-bottom:1px solid var(--line)}.featureline h3{margin:0;font:italic 25px Georgia}.featureline p{margin:6px 0;color:var(--muted)}
+.visit{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:stretch}.info{border:1px solid var(--line);padding:40px}.info h3{font:italic 32px Georgia}.info p{color:var(--muted)}.map{min-height:400px;background:#1a1916;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;text-align:center}.map a{color:var(--gold)}
+footer{padding:35px 0;border-top:1px solid var(--line);color:#777;font-size:12px}.footerin{display:flex;justify-content:space-between}
+@media(max-width:800px){.links{display:none}.intro,.experience-grid,.visit,.menu-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.gallery img:first-child{grid-column:span 2;height:350px}.gallery img{height:180px}.hero h1{font-size:64px}.sectionhead h2{font-size:42px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="brand" href="#">Bonavista<small>COLOMBO</small></a><div class="links"><a href="#story">Story</a><a href="#menu">Menu</a><a href="#gallery">Gallery</a><a href="#experience">Experience</a><a href="#visit">Visit</a></div></div></nav>
+
+<header class="hero">
+<div class="wrap hero-content">
+<div class="eyebrow">76A Barnes Place · Colombo 07</div>
+<h1>Good food.<br>Beautiful nights.</h1>
+<p>A distinctive dining and entertainment destination where great plates, warm hospitality, karaoke and good company come together.</p>
+<a class="btn primary" href="#menu">Explore Menu</a>
+<a class="btn" href="#visit">Plan Your Visit</a>
+</div></header>
+
+<section id="story"><div class="wrap intro">
+<div><div class="eyebrow">The Bonavista experience</div><h2 style="font:italic 52px Georgia;margin:12px 0">Made for memorable moments.</h2>
+<p>Bonavista Colombo brings together a relaxed restaurant atmosphere, generous food and an evening experience designed for friends, families and celebrations.</p>
+<p>From seafood and Asian-inspired plates to shared dishes and private karaoke moments, the space is built around one simple idea: stay a little longer.</p>
+<div class="quote">“Come for the food. Stay for the atmosphere.”</div></div>
+<img src="assets/img_3.jpeg" alt="Bonavista dining room">
+</div></section>
+
+<section class="experience"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Why Bonavista</div><h2>An evening with character.</h2><p>A carefully presented space, a broad menu and entertainment options make Bonavista a natural choice for a Colombo night out.</p></div>
+<div class="cards"><div class="card"><div class="icon">🍽</div><h3>Food</h3><p>Seafood, Asian-inspired favourites, rice, noodles, grills and sharing dishes.</p></div><div class="card"><div class="icon">🎤</div><h3>Karaoke</h3><p>A social entertainment experience for groups and celebrations.</p></div><div class="card"><div class="icon">🥂</div><h3>BYOB</h3><p>Bring-your-own-bottle concept. Please confirm current corkage terms before visiting.</p></div></div></div></section>
+
+<section class="menu" id="menu"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Selected menu</div><h2>From our table.</h2><p>Sample prices based on the menu information previously gathered. Prices and availability can change; confirm with the restaurant before ordering.</p></div>
+<div class="menu-grid">
+<div class="dish"><div><h3>Rice & Curry</h3><p>A classic Sri Lankan favourite</p></div><div class="price">LKR 1,200</div></div>
+<div class="dish"><div><h3>Seafood Fried Rice</h3><p>Classic seafood fried rice</p></div><div class="price">LKR 2,240</div></div>
+<div class="dish"><div><h3>Pad Thai Noodles</h3><p>Asian-style noodle favourite</p></div><div class="price">LKR 3,120</div></div>
+<div class="dish"><div><h3>Chilli Garlic Prawns</h3><p>Prawns with chilli and garlic</p></div><div class="price">LKR 3,190</div></div>
+<div class="dish"><div><h3>Hot Butter Cuttlefish</h3><p>Spicy seafood favourite</p></div><div class="price">LKR 3,120</div></div>
+<div class="dish"><div><h3>Black Pepper Chicken</h3><p>Peppery Asian-style chicken</p></div><div class="price">LKR 2,860</div></div>
+<div class="dish"><div><h3>Grilled Tiger Prawns</h3><p>Served with lemon garlic sauce</p></div><div class="price">LKR 4,485</div></div>
+<div class="dish"><div><h3>Seafood Mixed Grill</h3><p>Sharing platter for four</p></div><div class="price">LKR 9,700</div></div>
+<div class="dish"><div><h3>Meat Mixed Grill</h3><p>Sharing platter for four</p></div><div class="price">LKR 9,900</div></div>
+<div class="dish"><div><h3>Sizzling Mutton Hot Plate</h3><p>Chef’s special</p></div><div class="price">LKR 4,800</div></div>
+</div></div></section>
+
+<section id="gallery"><div class="wrap"><div class="sectionhead"><div class="eyebrow">Inside Bonavista</div><h2>The food. The room. The mood.</h2></div>
+<div class="gallery">
+<img src="assets/img_14.jpeg" alt="Seafood platter"><img src="assets/img_17.jpeg" alt="Dish"><img src="assets/img_12.jpeg" alt="Food"><img src="assets/img_11.jpeg" alt="Dish"><img src="assets/img_18.jpeg" alt="Bonavista exterior"><img src="assets/img_5.jpeg" alt="Sushi"><img src="assets/img_6.jpeg" alt="Karaoke room"><img src="assets/img_1.jpeg" alt="Bonavista exterior">
+</div></div></section>
+
+<section id="experience"><div class="wrap experience-grid"><div><div class="sectionhead"><div class="eyebrow">Good to know</div><h2>Designed for groups.</h2></div><div class="featureline"><h3>Private karaoke atmosphere</h3><p>Ideal for birthdays, celebrations and relaxed group evenings.</p></div><div class="featureline"><h3>Dining & sharing</h3><p>Choose individual plates or build a table around sharing dishes.</p></div><div class="featureline"><h3>Colombo 07 location</h3><p>Conveniently located at Barnes Place.</p></div></div>
+<div><img src="assets/img_6.jpeg" alt="Bonavista karaoke room" style="width:100%;height:500px;object-fit:cover"></div></div></section>
+
+<section id="visit"><div class="wrap visit"><div class="info"><div class="eyebrow">Visit us</div><h3>Bonavista Colombo</h3><p>76A Barnes Place,<br>Colombo 07,<br>Sri Lanka</p><p><strong>+94 77 222 5228</strong></p><p>Open daily · approximately 11:00 AM – 11:30 PM</p><a class="btn primary" href="tel:+94772225228">Call Now</a><a class="btn" href="https://maps.google.com/?q=76A+Barnes+Place+Colombo+07" target="_blank">Google Maps</a></div>
+<div class="map"><div><div style="font-size:35px">📍</div><h3>76A Barnes Place, Colombo 07</h3><a href="https://maps.google.com/?q=76A+Barnes+Place+Colombo+07" target="_blank">Open location in Google Maps →</a></div></div></div></section>
+
+<footer><div class="wrap footerin"><div>© 2026 Bonavista Colombo</div><div>Restaurant · Karaoke · BYOB</div></div></footer>
+</body></html>
